@@ -1,0 +1,72 @@
+header {
+  background-image: url(images/Group.png);
+  background-repeat: no-repeat;
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  margin: 100px auto;
+}
+.header::after {
+  .banner::after {
+    content: "";
+    background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    );
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: inherit;
+    width: inherit;
+    z-index: -1;
+  }
+}
+.banner {
+  color: #fff;
+  top: 30%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.banner-title {
+  color: #fff;
+  font-family: Mulish;
+  text-align: center;
+  margin-top: 100px;
+}
+.banner-title h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+.banner-title p {
+  width: 676px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 auto;
+}
+.banner-search-field {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  gap: 24px;
+}
+.banner-search-field input {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  border: 0;
+}
+.button1 {
+  border-radius: 8px;
+  background: #ff5400;
+  border: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-weight: 700;
+}
